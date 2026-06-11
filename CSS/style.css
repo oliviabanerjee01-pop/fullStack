@@ -1,0 +1,27 @@
+body{
+	background-color:#f4f4f4;
+	color:#000000;
+
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight:400;
+	/* SAME AS ABOVE */
+	font:normal 16px Arial, Helvetica, sans-serif;
+
+
+	line-height:1.6em;
+} 
+.container{
+	margin:auto;
+	width:80%;
+}
+
+
+
+
+
+
+.box-1{
+	background-color:#333;
+	color:#fff;
+}
