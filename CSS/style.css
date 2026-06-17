@@ -1,3 +1,9 @@
+{
+	padding:20;
+}
+
+
+
 body{
 	background-color:#f4f4f4;
 	color:#000000;
@@ -24,4 +30,126 @@ body{
 .box-1{
 	background-color:#333;
 	color:#fff;
+
+
+	border-right: 5px red solid;
+	border-left:10px blue;
+	margin:20px;
+	padding:20px;
 }
+
+.box-1 h1{
+	font-family: Tahoma;
+	fonnt-weight:800;
+	letter-spacing:0.2cm;
+	text-align:center;
+}
+a{
+	text-decoration:none;
+	colour:#000;
+}
+
+a:hover{
+	color:pink;
+
+}
+a:visited
+.box-2{
+	font-style: italic;
+	padding: 45px;
+	margin: 20px;
+	border: 5px solid red;
+
+}
+
+.clr{
+	clear:both;
+}
+
+.categories ul{
+	border: 5px dotted;
+	padding:0;
+	list-style:none;
+}
+
+.categories li{
+	padding-bottom:10px;
+	border-bottom: 2px dotted;
+	list-style-image:url('C:/fullstack/CSS/check.png');
+}
+
+.my-form{
+	padding: 20px;
+}
+
+.my-form .form-group{
+	padding-bottom: 20px;
+	color: red;
+}
+
+.my-form label{
+	display: block;
+}
+
+.my-form input{
+	padding: 8px;
+	width:100%;
+}
+.block{
+	float:left;
+	width:33.3%;
+	border:1px solid #ccc;
+	padding:10px;
+	box-sizing:border-box;
+}
+
+#main-block{
+	float:border-left;
+	width:70%;
+
+}
+
+#sidebar{
+	float:right;
+	width :30%;
+	background-color: #355;
+	color:#f4f4f4;
+	padding: 15px;
+	box-sizing: border-box;
+}
+
+.p-box{
+	width:800px;
+	height: 500px;
+	border: 1px solid red;
+	margin-top:30px;
+	position:relative;
+}
+
+.p-box h1{
+	position:absolute;
+	top:100px;
+	left:200px;
+}
+.fix-me{
+	position:fixed;
+	top:400px;
+}
+.my-list li:first-child{
+	background:red;
+
+}
+.my-list li:last-child{
+	background:blue;
+
+}
+.my-list li:nth-child(4){
+	background:grey;
+
+}
+.my-list li:nth-child(even){
+	background:pink;
+
+}
+
+
